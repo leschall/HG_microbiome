@@ -1,0 +1,124 @@
+15,1	ok										
+49,1	ok										
+52,1	ok										
+58,5	ok										
+67,1	ok										
+67,2	ok										
+75,15	ok			716_14							
+79,13	ok			1080_12							
+79,24	ok			816_24						manque 	
+242,1	ok			938_1						6_1	refaire transfo 
+245,1	ok			311_12						292_12	refaire transfo 
+306,1	ok			316_8						362_1	refaire transfo 
+311,12	ok			355_12						385_1	refaire transfo 
+313,1	ok			360_2						439_1	refaire transfo 
+314,1	ok			377_1						506_1	not enoguh caracter 
+316,8	ok			424_67						684_4	pas assez de temps 
+318,12	ok			453_13						745_1	refaire transfo 
+320,1	ok			489_12						816_24	pas assez de temps 
+329,1	ok			592_34						857_2	refaire transfo 
+348,1	ok			1074_12						996_3	refaire transfo 
+350,12	ok			684_4							
+351,1	ok										
+353,1	ok										
+355,12	ok										
+356,12	ok										
+360,2	ok										
+364,1	ok										
+366,12	ok										
+369,1	ok										
+371,1	ok										
+374,1	ok										
+377,1	ok										
+379,1	ok										
+382,1	ok										
+383,1	ok										
+384,1	ok										
+388,1	ok										
+406,1	ok										
+409,12	ok										
+412,1	ok										
+417,1	ok										
+421,12	ok										
+424,67	ok										
+436,1	ok										
+437,23	ok										
+453,13	ok										
+458,1	ok										
+466,1	ok										
+489,12	ok										
+518,12	ok										
+592,34	ok										
+596,1	ok										
+600,1	ok										
+601,1	ok										
+605,1	ok										
+608,12	ok										
+622,2	ok										
+623,14	ok										
+638,34	ok										
+653,1	ok										
+673,1	ok										
+679,1	ok										
+681,12	ok										
+684,35	ok										
+687,1	ok										
+692,1	ok										
+693,12	ok										
+711,1	ok										
+715,1	ok										
+716,14	ok										
+719,1	ok										
+735,1	ok										
+739,12	ok										
+747,1	ok										
+748,2	ok										
+808,1	ok										
+814,1	ok										
+817,1	ok										
+825,2	ok										
+830,23	ok										
+837,12	ok										
+838,1	ok										
+844,456	ok										
+871,12	ok										
+887,1	ok										
+895,24	ok										
+904,1	ok										
+935,1	ok										
+936,45	ok										
+937,1	ok										
+938,1	ok										
+945,1	ok										
+952,1	ok										
+1002,1	ok										
+1002,2	ok										
+1013,12	ok										
+1023,1	ok										
+1035,12	ok										
+1037,1	ok										
+1040,1	ok										
+1074,12	ok										
+1076,1	ok										
+1080,12	ok										
+1085,1	ok										
+1091,1	ok										
+1095,1	ok										
+1096,1	ok										
+1101,1	ok										
+1112,2	ok										
+1112,46	ok										
+1116,1	ok										
+1159,1	ok										
+1187,1	ok										
+1190,2	ok										
+1204,1	ok										
+1206,3	ok										
+1209,1	ok										
+1218,13	ok										
+1222,1	ok										
+1224,13	ok										
+1236,1	ok										
+1238,2	pk										
+1239,1	ok										
+1244,23	ok										

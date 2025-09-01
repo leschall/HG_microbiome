@@ -1,0 +1,176 @@
+"sample_id","population","Age_bin","Age","Gender","Country","Lat.Long","Village","SampleName","Lifestyle","State","BMI","Author","Year","Geographic_region","N_reads_clean"
+"ERR11604928","Baka","18 and above","60","male","Cameroon","3.062534 N 14.12599 E","Baka forest","BOS01","H-G",NA,"NA ","Rampelli",2024,"Africa",20169162
+"ERR11604929","Baka","18 and above","28","female","Cameroon","3.127222 N 13.8825 E","Baka settled","BOS02","H-G",NA,"NA ","Rampelli",2024,"Africa",14295218
+"ERR11604930","Baka","18 and above","30","male","Cameroon","3.127222 N 13.8825 E","Baka settled","BOS03","H-G",NA,"NA ","Rampelli",2024,"Africa",16470238
+"ERR11604931","Baka","18 and above","30","female","Cameroon","3.127222 N 13.8825 E","Baka settled","BOS04","H-G",NA,"NA ","Rampelli",2024,"Africa",12616082
+"ERR11604932","Baka","18 and above","47","female","Cameroon","3.127222 N 13.8825 E","Baka settled","BOS05","H-G",NA,"NA ","Rampelli",2024,"Africa",16002750
+"ERR11604933","Baka","18 and above","44","male","Cameroon","3.127222 N 13.8825 E","Baka settled","BOS06","H-G",NA,"NA ","Rampelli",2024,"Africa",21494026
+"ERR11604934","Baka","18 and above","32","female","Cameroon","3.127222 N 13.8825 E","Baka settled","BOS07","H-G",NA,"NA ","Rampelli",2024,"Africa",17430138
+"ERR11604935","Baka","18 and above","61","male","Cameroon","3.127222 N 13.8825 E","Baka settled","BOS08","H-G",NA,"NA ","Rampelli",2024,"Africa",17511712
+"ERR11604936","Baka","18 and above","49","female","Cameroon","3.127222 N 13.8825 E","Baka settled","BOS09","H-G",NA,"NA ","Rampelli",2024,"Africa",13226790
+"ERR11604937","Baka","18 and above","20","female","Cameroon","3.127222 N 13.8825 E","Baka settled","BOS10","H-G",NA,"NA ","Rampelli",2024,"Africa",14373736
+"ERR11604938","Baka","18 and above","22","female","Cameroon","3.127222 N 13.8825 E","Baka settled","BOS11","H-G",NA,"NA ","Rampelli",2024,"Africa",16520930
+"ERR11604939","Baka","18 and above","55","female","Cameroon","3.062534 N 14.12599 E","Baka forest","BOS12","H-G",NA,"NA ","Rampelli",2024,"Africa",13123430
+"ERR11604940","Baka","18 and above","66","female","Cameroon","3.062534 N 14.12599 E","Baka forest","BOS13","H-G",NA,"NA ","Rampelli",2024,"Africa",17916000
+"ERR11604941","Baka","18 and above","30","male","Cameroon","3.062534 N 14.12599 E","Baka forest","BOS14","H-G",NA,"NA ","Rampelli",2024,"Africa",17036908
+"ERR11604942","Baka","18 and above","33","male","Cameroon","3.062534 N 14.12599 E","Baka forest","BOS15","H-G",NA,"NA ","Rampelli",2024,"Africa",15071428
+"ERR11604943","Baka","18 and above","66","female","Cameroon","3.062534 N 14.12599 E","Baka forest","BOS16","H-G",NA,"NA ","Rampelli",2024,"Africa",16167536
+"ERR11604944","Baka","18 and above","52","female","Cameroon","3.062534 N 14.12599 E","Baka forest","BOS17","H-G",NA,"NA ","Rampelli",2024,"Africa",13502406
+"ERR11604945","Baka","18 and above","55","female","Cameroon","3.062534 N 14.12599 E","Baka forest","BOS18","H-G",NA,"NA ","Rampelli",2024,"Africa",14402692
+"ERR11604946","Baka","18 and above","25","female","Cameroon","3.062534 N 14.12599 E","Baka forest","BOS19","H-G",NA,"NA ","Rampelli",2024,"Africa",13820090
+"ERR11604947","Baka","18 and above","29","male","Cameroon","3.062534 N 14.12599 E","Baka forest","BOS20","H-G",NA,"NA ","Rampelli",2024,"Africa",11927402
+"ERR11604948","Baka","18 and above","35","male","Cameroon","3.062534 N 14.12599 E","Baka forest","BOS21","H-G",NA,"NA ","Rampelli",2024,"Africa",16070430
+"ERR11604949","Baka","18 and above","48","female","Cameroon","3.062534 N 14.12599 E","Baka forest","BOS22","H-G",NA,"NA ","Rampelli",2024,"Africa",14452198
+"ERR11604950","Baka","18 and above","49","female","Cameroon","3.062534 N 14.12599 E","Baka forest","BOS23","H-G",NA,"NA ","Rampelli",2024,"Africa",7710512
+"ERR11604951","Baka","18 and above","65","female","Cameroon","3.062534 N 14.12599 E","Baka forest","BOS24","H-G",NA,"NA ","Rampelli",2024,"Africa",11304296
+"ERR11604952","Baka","18 and above","34","female","Cameroon","3.062534 N 14.12599 E","Baka forest","BOS25","H-G",NA,"NA ","Rampelli",2024,"Africa",17555564
+"ERR11604953","Baka","18 and above","48","female","Cameroon","3.062534 N 14.12599 E","Baka forest","BOS26","H-G",NA,"NA ","Rampelli",2024,"Africa",17856320
+"ERR7738143","Hadza","14 and below","7","female","Tanzania","3.55 S 34.58 E","HUKAMAKO","158","H-G",NA,"NA ","Carter",2023,"Africa",84113862
+"ERR7738158","Hadza","18 and above","30","male","Tanzania","3.55 S 34.58 E","HUKAMAKO","371","H-G",NA,"NA ","Carter",2023,"Africa",90637290
+"ERR7738166","Hadza","14 and below","4","female","Tanzania","3.55 S 34.58 E","HUKAMAKO","270","H-G",NA,"NA ","Carter",2023,"Africa",96550332
+"ERR7738182","Hadza","14 and below","8","female","Tanzania","3.55 S 34.58 E","HUKAMAKO","372","H-G",NA,"NA ","Carter",2023,"Africa",99578548
+"ERR7738185","Hadza","18 and above","25","female","Tanzania","3.55 S 34.58 E","HUKAMAKO","330","H-G",NA,"NA ","Carter",2023,"Africa",93653652
+"ERR7738196","Hadza","18 and above","38","female","Tanzania","3.55 S 34.58 E","HUKAMAKO","325","H-G",NA,"NA ","Carter",2023,"Africa",100879592
+"ERR7738215","Hadza","14 and below","4","female","Tanzania","3.55 S 34.58 E","HUKAMAKO","159","H-G",NA,NA,"Carter",2023,"Africa",95997628
+"ERR7738229","Nepali","18 and above",NA,"male","Nepal","28.17 N 84.25 E",NA,"11947.CHE0009BZ","H-G",NA,"NA ","Carter",2023,"Asia",124032806
+"ERR7738253","Hadza","18 and above","47","male","Tanzania","3.55 S 34.58 E","HUKAMAKO","82","H-G",NA,NA,"Carter",2023,"Africa",110592398
+"ERR7738267","Hadza","14 and below","6","female","Tanzania","3.55 S 34.58 E","HUKAMAKO",NA,"H-G","Underweight","13.14924392","Carter",2023,"Africa",127471840
+"ERR7738276","California","18 and above",NA,NA,"USA","37.4275 N 122.1697 W","California","Pilot_MoBio_Fiber_C_5_1018","Industrial",NA,"NA ","Carter",2023,"North_Amercia",162825588
+"ERR7738277","Nepali","18 and above",NA,"female","Nepal","28.17 N 84.25 E",NA,"11947.CHE1008TZ","H-G",NA,"NA ","Carter",2023,"Asia",180635546
+"ERR7738353","Nepali","18 and above",NA,"female","Nepal","28.17 N 84.25 E",NA,"11947.CHE1003TZ","H-G",NA,"NA ","Carter",2023,"Asia",169746546
+"ERR7738514","California","18 and above",NA,NA,"USA","37.4275 N 122.1697 W","California","Pilot_MoBio_Fiber_C_5_1018","Industrial",NA,"NA ","Carter",2023,"North_Amercia",205797640
+"ERR7738515","Nepali","18 and above",NA,"male","Nepal","28.17 N 84.25 E",NA,"11947.CHE0005SZ","H-G",NA,"NA ","Carter",2023,"Asia",194299656
+"ERR7738537","Hadza","18 and above","45","female","Tanzania","3.55 S 34.58 E","HUKAMAKO","53","H-G","Healthy ","19.28937927","Carter",2023,"Africa",175163630
+"ERR7738545","Nepali","18 and above",NA,"female","Nepal","28.17 N 84.25 E",NA,"11947.CHE1011TZ","H-G",NA,"NA ","Carter",2023,"Asia",203150038
+"ERR7738546","California","18 and above",NA,NA,"USA","37.4275 N 122.1697 W","California","Pilot_MoBio_Fiber_C_5_1018","Industrial",NA,"NA ","Carter",2023,"North_Amercia",197922476
+"ERR7738547","California","18 and above",NA,NA,"USA","37.4275 N 122.1697 W","California","Pilot_MoBio_Fiber_C_5_1018","Industrial",NA,"NA ","Carter",2023,"North_Amercia",213738104
+"ERR7738549","California","18 and above",NA,NA,"USA","37.4275 N 122.1697 W","California","Pilot_MoBio_Fiber_C_5_1018","Industrial",NA,"NA ","Carter",2023,"North_Amercia",216012586
+"ERR7738553","Nepali","18 and above",NA,"female","Nepal","28.17 N 84.25 E",NA,"11947.CHE1006Z","H-G",NA,"NA ","Carter",2023,"Asia",213803142
+"ERR7738558","Nepali","18 and above",NA,"male","Nepal","28.17 N 84.25 E",NA,"11947.CHE0014TZ","H-G",NA,"NA ","Carter",2023,"Asia",215487798
+"ERR7738562","California","18 and above",NA,NA,"USA","37.4275 N 122.1697 W","California","Pilot_MoBio_Fiber_C_5_1018","Industrial",NA,"NA ","Carter",2023,"North_Amercia",220404122
+"ERR7738578","California","18 and above",NA,NA,"USA","37.4275 N 122.1697 W","California","Pilot_MoBio_Fiber_C_5_1018","Industrial",NA,"NA ","Carter",2023,"North_Amercia",237000210
+"ERR7738580","Nepali","18 and above",NA,"female","Nepal","28.17 N 84.25 E",NA,"11947.CHE1007SZ","H-G",NA,"NA ","Carter",2023,"Asia",215006154
+"ERR7738594","Hadza","18 and above","55","male","Tanzania","3.55 S 34.58 E","HUKAMAKO","101","H-G","Healthy ","20.27","Carter",2023,"Africa",183043428
+"ERR7738597","California","18 and above",NA,NA,"USA","37.4275 N 122.1697 W","California","Pilot_MoBio_Fiber_C_5_1018","Industrial",NA,"NA ","Carter",2023,"North_Amercia",221650534
+"ERR7738604","Hadza","14 and below","14","female","Tanzania","3.55 S 34.58 E","HUKAMAKO","379","H-G",NA,"NA ","Carter",2023,"Africa",197172306
+"ERR7738608","Hadza","18 and above","49","female","Tanzania","3.55 S 34.58 E","HUKAMAKO","197","H-G",NA,"NA ","Carter",2023,"Africa",210568276
+"ERR7738611","Hadza","18 and above","32","female","Tanzania","3.55 S 34.58 E","HUKAMAKO","268","H-G","Underweight","18.17867036","Carter",2023,"Africa",231869824
+"ERR7738612","Hadza","18 and above","25","male","Tanzania","3.55 S 34.58 E","HUKAMAKO","78","H-G",NA,NA,"Carter",2023,"Africa",206115186
+"ERR7738616","Hadza","18 and above","33","male","Tanzania","3.55 S 34.58 E","HUKAMAKO","97","H-G","Underweight","15.81","Carter",2023,"Africa",222950336
+"ERR7738620","California","18 and above",NA,NA,"USA","37.4275 N 122.1697 W","California","Pilot_MoBio_Fiber_C_5_1018","Industrial",NA,"NA ","Carter",2023,"North_Amercia",240331236
+"ERR7738622","Hadza","18 and above","27","male","Tanzania","3.55 S 34.58 E","HUKAMAKO","103","H-G",NA,"NA ","Carter",2023,"Africa",221728930
+"ERR7738624","Hadza","18 and above","26","female","Tanzania","3.55 S 34.58 E","HUKAMAKO","107","H-G",NA,"NA ","Carter",2023,"Africa",276828348
+"ERR7738629","Hadza","18 and above","48","female","Tanzania","3.55 S 34.58 E","HUKAMAKO","157","H-G",NA,NA,"Carter",2023,"Africa",228702894
+"ERR7738630","Hadza","18 and above","55","male","Tanzania","3.55 S 34.58 E","HUKAMAKO","94","H-G","Healthy ","19.72","Carter",2023,"Africa",221240894
+"ERR7738937","California","18 and above",NA,NA,"USA","37.4275 N 122.1697 W","California","Pilot_MoBio_Fiber_C_5_1018","Industrial",NA,"NA ","Carter",2023,"North_Amercia",357972730
+"ERR7738938","Nepali","18 and above",NA,"male","Nepal","28.17 N 84.25 E",NA,"11947.CHE0002SZ","H-G",NA,"NA ","Carter",2023,"Asia",387854044
+"ERR7745402","Hadza","14 and below","3","female","Tanzania","3.55 S 34.58 E","HUKAMAKO","278","H-G",NA,"NA ","Carter",2023,"Africa",90773642
+"ERR7745596","Nepali","18 and above",NA,"female","Nepal","28.17 N 84.25 E",NA,"11947.CHE1020TZ","H-G",NA,"NA ","Carter",2023,"Asia",124758194
+"ERR7745787","Nepali","18 and above",NA,"male","Nepal","28.17 N 84.25 E",NA,"11947.CHE0004BZ","H-G",NA,"NA ","Carter",2023,"Asia",185841262
+"ERR7745819","Hadza","14 and below","4","male","Tanzania","3.55 S 34.58 E","HUKAMAKO","277","H-G",NA,"NA ","Carter",2023,"Africa",202130236
+"ERR7745831","Nepali","18 and above",NA,"male","Nepal","28.17 N 84.25 E",NA,"11947.CHE0012SZ","H-G",NA,"NA ","Carter",2023,"Asia",180061124
+"ERR7745836","Nepali","18 and above",NA,"male","Nepal","28.17 N 84.25 E",NA,"11947.CHE0010BZ","H-G",NA,"NA ","Carter",2023,"Asia",192438358
+"ERR7746398","Hadza","18 and above","33","male","Tanzania","3.55 S 34.58 E","HUKAMAKO","95","H-G","Underweight","18.98659072","Carter",2023,"Africa",205717194
+"ERR7746440","Hadza","18 and above","35","male","Tanzania","3.55 S 34.58 E","HUKAMAKO","89","H-G",NA,"NA ","Carter",2023,"Africa",83346492
+"SRR1761676","Norman","18 and above","23","male","USA","35.21 N 97.43 W","Oklahoma","NO01","Industrial","Healthy ","21.69Ê","Obregon-Tito",2015,"North_Amercia",39508086
+"SRR1761677","Norman","18 and above","37","female","USA","35.21 N 97.43 W","Oklahoma","NO02","Industrial","Healthy ","20.52Ê","Obregon-Tito",2015,"North_Amercia",48897764
+"SRR1761678","Norman","18 and above","40","male","USA","35.21 N 97.43 W","Oklahoma","NO03","Industrial","Healthy ","23.37Ê","Obregon-Tito",2015,"North_Amercia",50293364
+"SRR1761679","Norman","18 and above","26","male","USA","35.21 N 97.43 W","Oklahoma","NO04","Industrial","Healthy ","24.16Ê","Obregon-Tito",2015,"North_Amercia",45354140
+"SRR1761680","Norman","18 and above","28","male","USA","35.21 N 97.43 W","Oklahoma","NO05","Industrial","Healthy ","22.19Ê","Obregon-Tito",2015,"North_Amercia",45983996
+"SRR1761681","Norman","18 and above","28","male","USA","35.21 N 97.43 W","Oklahoma","NO06","Industrial","Healthy ","23.49Ê","Obregon-Tito",2015,"North_Amercia",35133934
+"SRR1761682","Norman","18 and above","32","female","USA","35.21 N 97.43 W","Oklahoma","NO08","Industrial","Healthy ","20.01Ê","Obregon-Tito",2015,"North_Amercia",39760864
+"SRR1761683","Norman","18 and above","34","female","USA","35.21 N 97.43 W","Oklahoma","NO09","Industrial","Healthy ","23.77Ê","Obregon-Tito",2015,"North_Amercia",34376090
+"SRR1761684","Norman","18 and above","41","male","USA","35.21 N 97.43 W","Oklahoma","NO10","Industrial","Overweight ","26.58 ","Obregon-Tito",2015,"North_Amercia",43971774
+"SRR1761685","Norman","18 and above","26","male","USA","35.21 N 97.43 W","Oklahoma","NO11","Industrial","Healthy ","23.93Ê","Obregon-Tito",2015,"North_Amercia",46525996
+"SRR1761686","Norman","18 and above","27","female","USA","35.21 N 97.43 W","Oklahoma","NO12","Industrial","Overweight ","28.62Ê","Obregon-Tito",2015,"North_Amercia",45864290
+"SRR1761687","Norman","18 and above","35","male","USA","35.21 N 97.43 W","Oklahoma","NO13","Industrial","Healthy ","20.34Ê","Obregon-Tito",2015,"North_Amercia",41997462
+"SRR1761688","Norman","14 and below","10","female","USA","35.21 N 97.43 W","Oklahoma","NO14","Industrial","Underweight","14.97Ê","Obregon-Tito",2015,"North_Amercia",43276208
+"SRR1761689","Norman","18 and above","50","female","USA","35.21 N 97.43 W","Oklahoma","NO15","Industrial","Overweight ","25.92Ê","Obregon-Tito",2015,"North_Amercia",38259954
+"SRR1761690","Norman","18 and above","47","male","USA","35.21 N 97.43 W","Oklahoma","NO16","Industrial","Obese","30.86Ê","Obregon-Tito",2015,"North_Amercia",51923246
+"SRR1761691","Norman","14 and below","10","male","USA","35.21 N 97.43 W","Oklahoma","NO17","Industrial","Healthy ","21.53Ê","Obregon-Tito",2015,"North_Amercia",40232690
+"SRR1761692","Norman","14 and below","7","male","USA","35.21 N 97.43 W","Oklahoma","NO18","Industrial","Underweight","17.31Ê","Obregon-Tito",2015,"North_Amercia",45389368
+"SRR1761693","Norman","18 and above","32","female","USA","35.21 N 97.43 W","Oklahoma","NO19","Industrial","Underweight","19.30Ê","Obregon-Tito",2015,"North_Amercia",42521940
+"SRR1761694","Norman","18 and above","26","male","USA","35.21 N 97.43 W","Oklahoma","NO20","Industrial","Overweight ","27.86Ê","Obregon-Tito",2015,"North_Amercia",43365320
+"SRR1761695","Norman","18 and above","23","male","USA","35.21 N 97.43 W","Oklahoma","NO21","Industrial","Healthy ","24.78Ê","Obregon-Tito",2015,"North_Amercia",34329854
+"SRR1761696","Norman","18 and above","26","male","USA","35.21 N 97.43 W","Oklahoma","NO22","Industrial","Obese","30.22Ê","Obregon-Tito",2015,"North_Amercia",45481238
+"SRR1761697","Norman","18 and above","26","female","USA","35.21 N 97.43 W","Oklahoma","NO23","Industrial","Overweight ","26.53Ê","Obregon-Tito",2015,"North_Amercia",49833872
+"SRR1761698","Matses","18 and above","30","male","Peru","5.68 S 73.33 W","Lotero","SM01","H-G",NA,NA,"Obregon-Tito",2015,"South_America",67890094
+"SRR1761699","Matses","18 and above","25","female","Peru","5.68 S 73.33 W","Lotero","SM02","H-G","Healthy ","23.95","Obregon-Tito",2015,"South_America",84787990
+"SRR1761700","Matses","14 and below","10","male","Peru","5.68 S 73.33 W","Lotero","SM03","H-G","Underweight","15.77","Obregon-Tito",2015,"South_America",42718508
+"SRR1761701","Matses","14 and below","1","male","Peru","5.68 S 73.33 W","Lotero","SM05","H-G",NA,NA,"Obregon-Tito",2015,"South_America",41061124
+"SRR1761702","Matses","14 and below","4","female","Peru","5.68 S 73.33 W","Lotero","SM11","H-G","Underweight","15.78","Obregon-Tito",2015,"South_America",61694600
+"SRR1761703","Matses","18 and above","36","female","Peru","5.68 S 73.33 W","Lotero","SM18","H-G","Overweight ","26.44","Obregon-Tito",2015,"South_America",59843040
+"SRR1761704","Matses","18 and above","20","female","Peru","5.68 S 73.33 W","Lotero","SM20","H-G","Healthy ","21.27","Obregon-Tito",2015,"South_America",56266162
+"SRR1761705","Matses","14 and below","7","male","Peru","5.68 S 73.33 W","Lotero","SM23","H-G","Underweight","15.66","Obregon-Tito",2015,"South_America",55770906
+"SRR1761706","Matses","14 and below","2","male","Peru","5.68 S 73.33 W","Lotero","SM24","H-G","Underweight","17.85","Obregon-Tito",2015,"South_America",61148536
+"SRR1761707","Matses","14 and below","2","female","Peru","5.68 S 73.33 W","Lotero","SM25","H-G",NA,NA,"Obregon-Tito",2015,"South_America",58685624
+"SRR1761708","Matses","18 and above","52","female","Peru","5.68 S 73.33 W","Lotero","SM28","H-G","Underweight","19.47","Obregon-Tito",2015,"South_America",51472210
+"SRR1761709","Matses","18 and above","50","female","Peru","5.68 S 73.33 W","Lotero","SM29","H-G","Underweight","17.9","Obregon-Tito",2015,"South_America",55709924
+"SRR1761710","Matses","14 and below","4","male","Peru","5.68 S 73.33 W","Lotero","SM30","H-G","Underweight","18.26","Obregon-Tito",2015,"South_America",52363218
+"SRR1761711","Matses","18 and above","30","male","Peru","5.68 S 73.33 W","Lotero","SM31","H-G","Healthy ","22.6","Obregon-Tito",2015,"South_America",57257732
+"SRR1761712","Matses","18 and above","21","female","Peru","5.68 S 73.33 W","Lotero","SM32","H-G","Healthy ","22.14","Obregon-Tito",2015,"South_America",64709158
+"SRR1761713","Matses","14 and below","5","female","Peru","5.68 S 73.33 W","Lotero","SM33","H-G","Underweight","16.45","Obregon-Tito",2015,"South_America",53101066
+"SRR1761714","Matses","14 and below","4","male","Peru","5.68 S 73.33 W","Lotero","SM34","H-G","Underweight","15.62","Obregon-Tito",2015,"South_America",50414294
+"SRR1761715","Matses","14 and below","12","male","Peru","5.68 S 73.33 W","Lotero","SM37","H-G","Healthy ","19.84","Obregon-Tito",2015,"South_America",51346180
+"SRR1761716","Matses","18 and above","40","female","Peru","5.68 S 73.33 W","Lotero","SM39","H-G","Overweight ","28.93","Obregon-Tito",2015,"South_America",62510780
+"SRR1761717","Matses","18 and above","18","female","Peru","5.68 S 73.33 W","Lotero","SM40","H-G","Healthy ","22.72","Obregon-Tito",2015,"South_America",60252158
+"SRR1761718","Matses","14 and below","6","male","Peru","5.68 S 73.33 W","Lotero","SM41","H-G",NA,NA,"Obregon-Tito",2015,"South_America",57350580
+"SRR1761719","Matses","14 and below","4","male","Peru","5.68 S 73.33 W","Lotero","SM42","H-G","Underweight","16.73","Obregon-Tito",2015,"South_America",52879270
+"SRR1761720","Matses","14 and below","2","female","Peru","5.68 S 73.33 W","Lotero","SM43","H-G","Underweight","15.15","Obregon-Tito",2015,"South_America",56143972
+"SRR1761721","Matses","14 and below","4","male","Peru","5.68 S 73.33 W","Lotero","SM44","H-G","Healthy ","19.83","Obregon-Tito",2015,"South_America",55985762
+"SRR17643452","Urban malaysian","18 and above",NA,"female","Malaysia","3.12 N 101.65 E","KL","UC69","Industrial",NA,"NA ","Tee",2022,"Asia",17565834
+"SRR17643456","Urban malaysian","18 and above",NA,"male","Malaysia","3.12 N 101.65 E","KL","UC65","Industrial",NA,"NA ","Tee",2022,"Asia",23354536
+"SRR17643458","Orang Asli","18 and above",NA,"male","Malaysia","3.85 N 101.45 E","Rasau","KR091A.1","H-G",NA,"NA ","Tee",2022,"Asia",17146342
+"SRR17643459","Urban malaysian","18 and above",NA,"male","Malaysia","3.12 N 101.65 E","KL","UC63","Industrial",NA,"NA ","Tee",2022,"Asia",21386018
+"SRR17643460","Urban malaysian","18 and above",NA,"female","Malaysia","3.12 N 101.65 E","KL","UC62","Industrial",NA,"NA ","Tee",2022,"Asia",20086500
+"SRR17643462","Urban malaysian","18 and above",NA,"female","Malaysia","3.12 N 101.65 E","KL","UC60","Industrial",NA,"NA ","Tee",2022,"Asia",17890178
+"SRR17643466","Urban malaysian","18 and above",NA,"female","Malaysia","3.12 N 101.65 E","KL","UC55","Industrial",NA,"NA ","Tee",2022,"Asia",20410680
+"SRR17643467","Urban malaysian","18 and above",NA,"male","Malaysia","3.12 N 101.65 E","KL","UC54","Industrial",NA,"NA ","Tee",2022,"Asia",30255200
+"SRR17643474","Urban malaysian","18 and above",NA,"female","Malaysia","3.12 N 101.65 E","KL","UC48","Industrial",NA,"NA ","Tee",2022,"Asia",28745672
+"SRR17643478","Urban malaysian","18 and above",NA,"female","Malaysia","3.12 N 101.65 E","KL","UC43","Industrial",NA,"NA ","Tee",2022,"Asia",17077082
+"SRR17643479","Urban malaysian","18 and above",NA,"female","Malaysia","3.12 N 101.65 E","KL","UC42","Industrial",NA,"NA ","Tee",2022,"Asia",18324144
+"SRR17643482","Urban malaysian","18 and above",NA,"female","Malaysia","3.12 N 101.65 E","KL","UC40","Industrial",NA,"NA ","Tee",2022,"Asia",24458952
+"SRR17643504","Orang Asli","18 and above",NA,"female","Malaysia","5.798 N 100.91 E","Legong","LL12C","H-G",NA,"NA ","Tee",2022,"Asia",21255710
+"SRR17643506","Orang Asli","18 and above",NA,"female","Malaysia","5.798 N 100.91 E","Legong","LL12A","H-G",NA,"NA ","Tee",2022,"Asia",18123754
+"SRR17643507","Orang Asli","18 and above",NA,"male","Malaysia","5.798 N 100.91 E","Legong","LL11B","H-G",NA,"NA ","Tee",2022,"Asia",18979982
+"SRR17643508","Orang Asli","18 and above",NA,"female","Malaysia","3.85 N 101.45 E","Legong","LL11A","H-G",NA,"NA ","Tee",2022,"Asia",16795820
+"SRR17643518","Orang Asli","18 and above",NA,"female","Malaysia","5.798 N 100.91 E","Legong","LL7B","H-G",NA,"NA ","Tee",2022,"Asia",17926814
+"SRR17643520","Orang Asli","18 and above",NA,"female","Malaysia","5.798 N 100.91 E","Legong","LL6B","H-G",NA,"NA ","Tee",2022,"Asia",18870530
+"SRR17643521","Orang Asli","18 and above",NA,"male","Malaysia","5.798 N 100.91 E","Legong","LL6A","H-G",NA,"NA ","Tee",2022,"Asia",17364710
+"SRR17643523","Orang Asli","18 and above",NA,"female","Malaysia","5.798 N 100.91 E","Legong","LL5B","H-G",NA,"NA ","Tee",2022,"Asia",13861668
+"SRR17643531","Orang Asli","18 and above",NA,"female","Malaysia","3.85 N 101.45 E","Rasau","KR060B.1","H-G",NA,"NA ","Tee",2022,"Asia",19253614
+"SRR17643652","Urban malaysian","18 and above",NA,"male","Malaysia","3.12 N 101.65 E","KL","UC71","Industrial",NA,"NA ","Tee",2022,"Asia",23811800
+"SRR17643657","Orang Asli","18 and above",NA,"female","Malaysia","5.798 N 100.91 E","Legong","LL4B","H-G",NA,"NA ","Tee",2022,"Asia",23062464
+"SRR17643662","Orang Asli","18 and above",NA,"male","Malaysia","5.798 N 100.91 E","Legong","LL1A","H-G",NA,"NA ","Tee",2022,"Asia",16744108
+"SRR17643790","Orang Asli","18 and above",NA,"female","Malaysia","5.798 N 100.91 E","Legong","LL65A","H-G",NA,"NA ","Tee",2022,"Asia",15113216
+"SRR17643792","Orang Asli","18 and above",NA,"male","Malaysia","5.798 N 100.91 E","Legong","LL64D","H-G",NA,"NA ","Tee",2022,"Asia",20340084
+"SRR17643794","Orang Asli","14 and below",NA,"female","Malaysia","5.798 N 100.91 E","Legong","LL64B","H-G",NA,"NA ","Tee",2022,"Asia",19390962
+"SRR17643804","Orang Asli","18 and above",NA,"female","Malaysia","5.798 N 100.91 E","Legong","LL61A","H-G",NA,"NA ","Tee",2022,"Asia",24988628
+"SRR17643809","Orang Asli","18 and above",NA,"female","Malaysia","5.798 N 100.91 E","Legong","LL56A","H-G",NA,"NA ","Tee",2022,"Asia",20672504
+"SRR17643913","Urban malaysian","18 and above",NA,"male","Malaysia","3.12 N 101.65 E","KL","UC30","Industrial",NA,"NA ","Tee",2022,"Asia",25982926
+"SRR17643916","Urban malaysian","18 and above",NA,"female","Malaysia","3.12 N 101.65 E","KL","UC26","Industrial",NA,"NA ","Tee",2022,"Asia",19316536
+"SRR17643919","Urban malaysian","18 and above",NA,"male","Malaysia","3.12 N 101.65 E","KL","UC24","Industrial",NA,"NA ","Tee",2022,"Asia",21554286
+"SRR17643922","Urban malaysian","18 and above",NA,"male","Malaysia","3.12 N 101.65 E","KL","UC21","Industrial",NA,"NA ","Tee",2022,"Asia",17926478
+"SRR17643924","Urban malaysian","18 and above",NA,"female","Malaysia","3.12 N 101.65 E","KL","UC16","Industrial",NA,"NA ","Tee",2022,"Asia",17550178
+"SRR17643927","Urban malaysian","18 and above",NA,"female","Malaysia","3.12 N 101.65 E","KL","UC09","Industrial",NA,"NA ","Tee",2022,"Asia",15406694
+"SRR17643933","Urban malaysian","18 and above",NA,"female","Malaysia","3.12 N 101.65 E","KL","UC04","Industrial",NA,"NA ","Tee",2022,"Asia",14647456
+"SRR17643938","Orang Asli","18 and above",NA,"female","Malaysia","5.798 N 100.91 E","Legong","LL72A","H-G",NA,"NA ","Tee",2022,"Asia",29184934
+"SRR17643958","Orang Asli","18 and above",NA,"female","Malaysia","5.798 N 100.91 E","Legong","LL33A","H-G",NA,"NA ","Tee",2022,"Asia",21013262
+"SRR17643968","Orang Asli","18 and above",NA,"male","Malaysia","5.798 N 100.91 E","Legong","LL31A","H-G",NA,"NA ","Tee",2022,"Asia",20762132
+"SRR17643989","Orang Asli","18 and above",NA,"male","Malaysia","3.85 N 101.45 E","Rasau","KR063A.1","H-G",NA,"NA ","Tee",2022,"Asia",14341614
+"SRR17644085","Orang Asli","18 and above",NA,"female","Malaysia","3.85 N 101.45 E","Rasau","KR004B.3","H-G",NA,"NA ","Tee",2022,"Asia",20615286
+"SRR8732217","Yanomami","18 and above","31-50",NA,"Brazil","1.195811 N 64.8105 W","Amazon Forest","Y10","H-G",NA,"NA ","Conteville",2019,"South_America",17600498
+"SRR8732218","Yanomami","18 and above","51-60",NA,"Brazil","1.195811 N 64.8105 W","Amazon Forest","Y9","H-G",NA,"NA ","Conteville",2019,"South_America",417638
+"SRR8732219","Yanomami","18 and above","61-70",NA,"Brazil","1.195811 N 64.8105 W","Amazon Forest","Y2","H-G",NA,"NA ","Conteville",2019,"South_America",10031756
+"SRR8732220","Yanomami","18 and above","61-70",NA,"Brazil","1.195811 N 64.8105 W","Amazon Forest","Y1","H-G",NA,"NA ","Conteville",2019,"South_America",17648258
+"SRR8732221","Yanomami","18 and above","61-70",NA,"Brazil","1.195811 N 64.8105 W","Amazon Forest","Y4","H-G",NA,"NA ","Conteville",2019,"South_America",11231270
+"SRR8732222","Yanomami","18 and above","61-70",NA,"Brazil","1.195811 N 64.8105 W","Amazon Forest","Y3","H-G",NA,"NA ","Conteville",2019,"South_America",5828390
+"SRR8732223","Yanomami","18 and above","31-50",NA,"Brazil","1.195811 N 64.8105 W","Amazon Forest","Y6","H-G",NA,"NA ","Conteville",2019,"South_America",8871302
+"SRR8732224","Yanomami","18 and above","31-50",NA,"Brazil","1.195811 N 64.8105 W","Amazon Forest","Y5","H-G",NA,"NA ","Conteville",2019,"South_America",2661134
+"SRR8732225","Yanomami","18 and above","51-60",NA,"Brazil","1.195811 N 64.8105 W","Amazon Forest","Y8","H-G",NA,"NA ","Conteville",2019,"South_America",25659824
+"SRR8732226","Yanomami","18 and above","51-60",NA,"Brazil","1.195811 N 64.8105 W","Amazon Forest","Y7","H-G",NA,"NA ","Conteville",2019,"South_America",2405214
+"SRR8732227","Yanomami","18 and above","51-60",NA,"Brazil","1.195811 N 64.8105 W","Amazon Forest","Y14","H-G",NA,"NA ","Conteville",2019,"South_America",9837422
+"SRR8732228","Yanomami","18 and above","51-60",NA,"Brazil","1.195811 N 64.8105 W","Amazon Forest","Y13","H-G",NA,"NA ","Conteville",2019,"South_America",603402
+"SRR8732229","Yanomami","18 and above","61-70",NA,"Brazil","1.195811 N 64.8105 W","Amazon Forest","Y12","H-G",NA,"NA ","Conteville",2019,"South_America",1642692
+"SRR8732230","Yanomami","18 and above","61-70",NA,"Brazil","1.195811 N 64.8105 W","Amazon Forest","Y11","H-G",NA,"NA ","Conteville",2019,"South_America",11750630
+"SRR8732231","Yanomami","18 and above","51-60",NA,"Brazil","1.195811 N 64.8105 W","Amazon Forest","Y15","H-G",NA,"NA ","Conteville",2019,"South_America",14066870

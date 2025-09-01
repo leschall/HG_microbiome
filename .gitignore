@@ -1,0 +1,11 @@
+.DS_Store
+*.docx
+Figures/
+*.png
+*.pdf
+*.svg
+.Rhistory
+.RData
+.RDataTmp
+.Rproj.user
+Results/
