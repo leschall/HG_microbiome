@@ -214,10 +214,10 @@ for (tree_path in tree_files) {
     
     all_effects <- bind_rows(all_effects, selected_effects)
     
-    # Forcer en data frame (si ce n’est pas déjà le cas)
+    # Force into a data frame (if it is not already one)
     loo_comparison <- as.data.frame(result[["loo"]][["comparison"]])
     
-    # Ajouter les noms de modèles (qui sont en rownames) comme colonne "model"
+    # dd model names (currently in the rownames) as a ‘model’ column
     loo_comparison$model <- rownames(loo_comparison)
     loo_comparison <- loo_comparison %>%
       relocate(model, .before = everything())
@@ -265,7 +265,7 @@ loo_wide <- all_loo_long %>%
     values_from = c(elpd_diff, se_diff),
     names_sep = "_"
   ) %>%
-  # Renommer les colonnes pour qu'elles soient plus lisibles
+  # Rename the columns to make them more readable
   rename(
     base_fit_elpd_diff = elpd_diff_base_fit,
     pglmm_fit_elpd_diff = elpd_diff_pglmm_fit,
