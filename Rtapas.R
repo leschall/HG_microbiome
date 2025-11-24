@@ -15,16 +15,15 @@ meta_rtapas <- read.csv("/Users/lucie/Documents/Cambridge/Analysis/Analysis_thes
 cluster_tree <- read.csv("/Users/lucie/Documents/Cambridge/Analysis/Tree/Cdb.csv")
 tree_strain_test <- read.tree(file = "data/Phylogeny_geography/Alltrees/1204_1_mugsy_tree.treefile")
 
-# Chaîne Newick correcte
+# Newick tree
 tree_human <- "(Baka,(Hadza,((California,Norman),(OrangAsli,(UrbanMalaysians,(Nepali,(Matses, Yanomami)))))));"
 
-# Lire l’arbre
+# Read the tree
 tree <- read.tree(text = tree_human)
 tree <- compute.brlen(tree, method = 1)
-# L’arbre est ladderisé pour que la racine soit en bas à gauche
+# Root in the left bottom
 tree <- ladderize(tree, right = FALSE)
 
-# Affichage
 plot(tree, main = "Population tree", direction = "rightwards", cex = 0.9)
 
 # separate by cluster 
@@ -36,7 +35,7 @@ cluster_rtapas <- cluster_ratapas %>%
   mutate(sample_id = original_bin)%>%
   mutate(sample_id = str_remove(sample_id, "_.*$"))
 
-#Filter les datas
+#filter the data
 rtapas_filtré <- cluster_rtapas %>%
   filter(secondary_cluster == "1204_1")
 
@@ -206,16 +205,15 @@ meta_rtapas <- read.csv("/Users/lucie/Documents/Cambridge/Analysis/Analysis_thes
 cluster_tree <- read.csv("/Users/lucie/Documents/Cambridge/Analysis/Tree/Cdb.csv")
 tree_strain_test <- read.tree(file = "data/Phylogeny_geography/Alltrees/506_1_mugsy_tree.treefile")
 
-# Chaîne Newick correcte
+# Right tree 
 tree_human <- "(Baka,(Hadza,((California,Norman),(OrangAsli,(UrbanMalaysians,(Nepali,(Matses, Yanomami)))))));"
 
-# Lire l’arbre
+# Read tree
 tree <- read.tree(text = tree_human)
 tree <- compute.brlen(tree, method = 1)
-# L’arbre est ladderisé pour que la racine soit en bas à gauche
+# Root at the left bottom 
 tree <- ladderize(tree, right = FALSE)
 
-# Affichage
 plot(tree, main = "Population tree", direction = "rightwards", cex = 0.9)
 
 # separate by cluster 
@@ -227,7 +225,7 @@ cluster_rtapas <- cluster_ratapas %>%
   mutate(sample_id = original_bin)%>%
   mutate(sample_id = str_remove(sample_id, "_.*$"))
 
-#Filter les datas
+#filter the data
 rtapas_filtré <- cluster_rtapas %>%
   filter(secondary_cluster == "506_1")
 
