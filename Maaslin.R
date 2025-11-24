@@ -404,13 +404,13 @@ library(ggpubr)
 
 
 
-# Nettoyer les noms de colonnes si besoin
+# Clean the column names if needed
 colnames(significant.count) <- gsub('"', '', colnames(significant.count))
 
-# Sélectionner seulement les MAGs significatifs (qval < 0.05)
+# Select only the significant MAGs (qval < 0.05)
 significant.features <- significant.count[significant.count$qval < 0.05, ]
 
-# Compter le nombre de MAGs par population (value)
+# Count the number of MAGs per population (value)
 feature_count <- as.data.frame(table(significant.features$value))
 colnames(feature_count) <- c("population", "signif.feature")
 
@@ -423,10 +423,9 @@ countbar <- ggplot(feature_count) +
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
   labs(title = "Count of Significant MAGs per Population", subtitle = "q-value < 0.05", y = "Number of Significant MAGs", x = "")
 
-# Afficher le plot
 print(countbar)
 
-# Sauvegarder si besoin
+# save if needed
 outpath <- "Results/Maaslin/population_author_ranef/"
 for(d in c("png","pdf")){
   ggsave(plot = countbar, 
@@ -510,8 +509,6 @@ df.abund <- merge.data.frame(df.abund, full.taxonomy, by="feature")
 
 n <- length(unique(df.abund$sampleid))
 
-####Calculer l’abondance moyenne normalisée pour chaque MAG (feature).###
-#####C’est une façon de produire une abondance relative moyenne, cohérente avec d’autres analyses####
 df.abund %>% group_by(feature, phylum) %>% summarise(abundance=sum(CPM)/(n*10^6)) -> total_abund
 
 heat.df.total <- total_abund[total_abund$feature %in% mag.levels,]
@@ -565,27 +562,19 @@ df.abund %>% group_by(population,feature, phylum) %>%
             popMean=mean(CPM),
             popSD=sd(CPM)) -> pop_abund
 
-####total_abund contient l’abondance moyenne normalisée de chaque MAG dans chaque phylum.####
-
 df.abund %>% group_by(feature) %>% summarise(totalCPM=sum(CPM)) -> total_abund
 
 heat.df.pop <- merge.data.frame(pop_abund, total_abund, by="feature")
-#####Tu additionnes les moyennes par population pour chaque MAG.####
-####Cela te donne un dénominateur pour normaliser les moyennes (voir ci-dessous).####
+
 pop_abund %>% group_by(feature) %>% summarise(sum.popMean=sum(popMean)) -> sumpopMean
 heat.df.pop <- merge.data.frame(heat.df.pop, sumpopMean, by="feature")
 
 heat.df.pop <- heat.df.pop[order(heat.df.pop$feature),]
-####normalised.abund : proportion (%) de l’abondance totale du MAG qui vient d’une population donnée.###
-###Qui domine en abondance brute (popCPM)###
-###Quelle proportion de l’abondance totale (tous échantillons confondus) d’un MAG provient d’une population donnée ?
+
+
 
 heat.df.pop$normalised.abund <- 100*heat.df.pop$popCPM/heat.df.pop$totalCPM
-####normalised.average : contribution (%) de la moyenne d’une population par rapport à la somme des moyennes toutes populations confondues.###
-###Qui a la moyenne la plus élevée (popMean), en valeur relative.###
-####ne population a peu d’échantillons, mais le MAG est très abondant en moyenne chez elle → ça ne se voit pas avec popCPM, mais ça saute aux yeux avec normalised.average.
-###Tu veux comparer l’intensité moyenne d’un MAG dans chaque population, pas juste "combien de lectures".
-####
+
 heat.df.pop$normalised.average <- 100*heat.df.pop$popMean/heat.df.pop$sum.popMean
 
 # order data
