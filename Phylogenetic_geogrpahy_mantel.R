@@ -25,22 +25,21 @@ library("ggtree")
 library(dplyr)
 library(stringr)
 
-# Exemple de dataframe
+# Dataframe
 def_meta <- read.csv("/Users/lucie/Documents/Cambridge/Analysis/Analysis_thesis/Sample_pop_meta/metadata_pop_all_final.csv", header = TRUE, sep= ";")
 mantel_df <- def_meta
 
-# Traitement
 df_clean <- mantel_df %>%
   mutate(
-    # Supprimer les espaces multiples
+    # Supress multiple spaces
     coord = str_squish(Lat.Long),
-    # Extraire latitude, longitude, et leurs directions
+    # Extraction of latitude, longitude, and their directions
     latitude = as.numeric(str_extract(coord, "^[0-9\\.]+")),
     lat_dir = str_extract(coord, "(?<= )[NS](?= )"),
     longitude = as.numeric(str_extract(coord, "(?<= )[0-9\\.]+(?= [EW])")),
     lon_dir = str_extract(coord, "[EW]$")
   ) %>%
-  # Appliquer les signes négatifs si direction est S ou W
+  # Apply negatives signes if direction is S or W
   mutate(
     latitude = if_else(lat_dir == "S", -latitude, latitude),
     longitude = if_else(lon_dir == "W", -longitude, longitude)
@@ -55,7 +54,7 @@ geo = data.frame(df_clean$longitude, df_clean$latitude)
 rownames(geo) <- rownames(df_clean)  # ou noms des samples
 
 
-# 2. Lire ton arbre (Newick)
+# tree reading
 tree <- read.tree(file ="data/Phylogeny_geography/1002_1_mugsy_tree.treefile")
 tree_test <- read.tree(file = "data/Phylogeny_geography/1002_1_parsnp_tree.treefile")
 ggtree(tree_test) + geom_tiplab()
@@ -100,22 +99,20 @@ tibble(Rho= Test$statistic, P=Test$signif, Permutations= Test$permutations) -> R
 
 
 
-
-# Chargement des packages
 library(tidyverse)
 library(ape)
 library(vegan)
 library(geosphere)
 
-# Chemins
+
 tree_dir <- "data/Phylogeny_geography/Alltrees"
 out_dir <- "Results/Phylogeny_geography_Mandel"
 dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)
 
-# Lecture des métadonnées
+# metadata
 mantel_df <- input.metadata
 
-# Nettoyage des coordonnées
+# cleaning the coordinates
 df_clean <- mantel_df %>%
   mutate(coord = str_squish(Lat.Long),
          latitude = as.numeric(str_extract(coord, "^[0-9\\.]+")),
@@ -126,18 +123,18 @@ df_clean <- mantel_df %>%
          longitude = if_else(lon_dir == "W", -longitude, longitude)) %>%
   select(sample_id, latitude, longitude)
 
-# Mise en forme de la matrice géographique
+# Formatting of the geographic matrix
 geo <- df_clean %>% select(longitude, latitude)
 rownames(geo) <- df_clean$sample_id
 
-# Fonction pour extraire le préfixe identifiant de l'arbre (ex: "439_1")
+# Function to extract the tree’s identifying prefix (e.g., ‘439_1’)
 SGB_from_tree <- function(filename){
   split_filename <- unlist(strsplit(basename(filename), "_"))
   return(paste(split_filename[1], split_filename[2], sep = "_"))
 }
 SGB_from_tree("data/Phylogeny_geography/Alltrees/936_45_mugsy_tree.treefile")
 
-# Fonction qui fait l’analyse complète pour un arbre
+# Function that performs the full analysis for a tree
 Run_analysis <- function(tree_file, Perm = 9999) {
   tree <- read.tree(tree_file)
   tree$tip.label <- gsub("_bin$", "", tree$tip.label)
@@ -163,13 +160,13 @@ Run_analysis <- function(tree_file, Perm = 9999) {
   tibble(Rho = Test$statistic, P = Test$signif, Permutations = Test$permutations)
 }
 
-# Liste des fichiers d’arbres
+# List of tree files
 tree_files <- list.files(tree_dir, pattern = "\\.treefile$", full.names = TRUE)
 
-# Résultat global
+# Global result
 Results <- tibble()
 Perm= 9999
-# Boucle sur tous les arbres
+# Loop over all trees
 for (tree_file in tree_files) {
   SGB <- SGB_from_tree(tree_file)
   Out <- file.path(out_dir, paste0(SGB, ".tsv"))
@@ -195,7 +192,7 @@ for (tree_file in tree_files) {
   Results <- bind_rows(Results, result)
 }
 
-# Sauvegarde finale
+# Final save
 write_tsv(Results, file.path(out_dir, "All_cor_2.tsv"))
 
 ## correction 
