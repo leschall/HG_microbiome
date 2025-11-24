@@ -127,7 +127,7 @@ genus_sets <- df_clean %>%
   summarise(features = list(unique(feature)), N = n(), .groups = "drop") %>%
   filter(N >= 5)
 
-# restreindre aux features présents dans ranks
+# restrict to the features present in ranks
 genus_sets$features <- lapply(genus_sets$features, function(v) intersect(v, names(ranks)))
 genus_sets <- genus_sets[lengths(genus_sets$features) > 0, ]
 taxa_list <- setNames(genus_sets$features, genus_sets$genus)
