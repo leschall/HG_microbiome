@@ -30,10 +30,8 @@ dat_ggplot$phylum <- factor(dat_ggplot$phylum, c("Bacteroidota","Bacillota_A","S
 
 write.csv(dat_ggplot, "data/abundance_phylum_pop_long.csv" ,row.names = FALSE)
 
-# Installe le package si besoin
+# install packages if needed
 install.packages("scales")
-
-# Charge le package
 library(scales)
 
 
@@ -148,8 +146,8 @@ gamma_all_long <- gamma_all %>%
                          labels = c("Richness", "Shannon", "Simpson")))
 
 
-# 2. Graphique combiné
-# Création d'une palette de couleurs distinctes pour les populations
+# 2. Plot
+# Création of colors for every population
 library(cowplot)
 pop_colors <- brewer.pal(n = length(unique(gamma_all_long$population)), name = "Set3")
 
@@ -255,11 +253,11 @@ for(i in select.metrics){
       p.adjust.method = "fdr"
     )
   
-  # Extraire les paires significatives
+  # Extraction of significant pairs
   signif_pairs <- mytest %>% 
     filter(p.adj < 0.05) %>%
-    mutate(pair = map2(group1, group2, c))  # crée une colonne de paires
-  # Créer un dataframe pour la heatmap
+    mutate(pair = map2(group1, group2, c))  
+  # creation of a dataframe for heatmap
   heatmap_df <- mytest %>%
     select(group1, group2, p.adj, p.adj.signif) %>%
     mutate(p.adj.signif = factor(p.adj.signif, 
@@ -280,7 +278,7 @@ for(i in select.metrics){
     theme_bw(base_size = 12, base_rect_size = 2, base_line_size = 0.8) +
     theme(panel.grid = element_blank()) +
     
-    # Boxplots sans outliers
+    # Boxplots
     geom_boxplot(size = 0.8, col = "grey50", outlier.shape = NA) +
     
     # # Étoiles de significativité : comparaisons entre populations
@@ -292,7 +290,7 @@ for(i in select.metrics){
     #   textsize = 4
     # ) +
     
-    # Points individuels (jitter)
+    # jitter
     geom_point(
       aes(colour = population, fill = population),
       position = position_jitter(width = 0.2, seed = 1),
@@ -300,7 +298,7 @@ for(i in select.metrics){
       shape = 21
     ) +
     
-    # Thème et échelles
+    # thems and scales
     scale_y_continuous(expand = c(0.07, 0)) +
     scale_color_manual(values = mycols) +
     scale_fill_manual(values = mycols) +
@@ -336,8 +334,8 @@ for(i in select.metrics){
       axis.text.y = element_text(size = 7),
       legend.text = element_text(size = 9),
       legend.title = element_text(size = 10),
-      legend.position = "bottom",                      # légende en bas
-      legend.margin = margin(t = -5, unit = "pt")      # rapproche la légende de l’axe x
+      legend.position = "bottom",                     
+      legend.margin = margin(t = -5, unit = "pt")      
     ) +
     guides(fill = guide_legend(
       title.position = "top",
@@ -504,12 +502,12 @@ wilcox.signif_test <- wilcox.signif %>%
 #####plot 
 #####plot 
 a <- ggplot(wilcox.signif_test, aes(x = Var1, y = Var2, fill = value)) +
-  geom_tile(color="white", linewidth=0.1) +  # Utiliser geom_tile pour créer la heatmap
-  scale_fill_viridis( breaks = c(0, 0.05, 1),  # Définir les breaks pour la légende
-                      labels = c("0","0.05", "1")) + # Étiquettes de la légende) +  # Couleurs de la heatmap
-  facet_wrap(~family) +  # Créer une heatmap pour chaque phylum
-  theme_minimal() +  # Thème minimal
-  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +  # Rotation des labels des axes x
+  geom_tile(color="white", linewidth=0.1) + 
+  scale_fill_viridis( breaks = c(0, 0.05, 1),  
+                      labels = c("0","0.05", "1")) + 
+  facet_wrap(~family) +  
+  theme_minimal() +  
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +  
   labs(title = "Heatmap of Pairwise Comparisons by Phylum", 
        x = "Population ", 
        y = "Population", 
