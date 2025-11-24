@@ -13,8 +13,8 @@ vs <- list(Lifestyle=multivar.df$feature[multivar.df$metadata=="Lifestyle"],
            Population=multivar.df$feature[multivar.df$metadata=="population"])
 
 p <- ggvenn(vs,text_size = 4, set_name_size = 5, fill_color = diet.cols) +
-  coord_fixed() +                      # <— garde des cercles parfaits
-  theme(aspect.ratio = 1)              # (optionnel) renforce le ratio carré
+  coord_fixed() +                      
+  theme(aspect.ratio = 1)              
 print(p)
 
 ggsave(p, file="Figures/final/venn_fixed.png",device = "png",width = 8,height = 8)
